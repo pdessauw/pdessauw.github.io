@@ -1,0 +1,19 @@
+.career-profile {
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+
+    .title {
+        @include header;
+    }
+    .details {
+        @include body-text;
+    }
+
+    hr {
+        margin-top: 1rem;
+        margin-bottom: 0;
+        border-width: 0 0 1px 0;
+        border-color: var(--fg-color-dark);
+    }
+}

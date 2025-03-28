@@ -1,0 +1,59 @@
+{% assign contact = site.data.data.contact %}
+{% if contact %}
+<section class="contact">
+<!--    <div class="title">Contact</div>-->
+    {% if contact.address %}
+        <div class="contact-item">
+            <i class="fa-solid fa-location-dot"></i>
+            <a href="#">
+                {{contact.address}}
+            </a>
+        </div>
+    {% endif %}
+
+    {% if contact.email %}
+        <div class="contact-item">
+            <i class="fa-solid fa-envelope"></i>
+            <a href="#">
+                {{contact.email}}
+            </a>
+        </div>
+    {% endif %}
+
+    {% if contact.phone %}
+        <div class="contact-item">
+            <i class="fa-solid fa-phone"></i>
+            <a href="#">
+                {{contact.phone}}
+            </a>
+        </div>
+    {% endif %}
+
+    {% if contact.website %}
+        <div class="contact-item">
+            <i class="fa-solid fa-globe"></i>
+            <a href="#">
+                {{contact.website}}
+            </a>
+        </div>
+    {% endif %}
+
+    {% if contact.github %}
+        <div class="contact-item">
+            <i class="fa-brands fa-github"></i>
+            <a href="https://github.com/{{contact.github}}">
+                {{contact.github}}
+            </a>
+        </div>
+    {% endif %}
+
+    {% if contact.linkedin %}
+        <div class="contact-item">
+            <i class="fa-brands fa-linkedin-in"></i>
+            <a href="https://linkedin.com/in/{{contact.linkedin}}">
+                {{contact.linkedin}}
+            </a>
+        </div>
+    {% endif %}
+</section>
+{% endif %}

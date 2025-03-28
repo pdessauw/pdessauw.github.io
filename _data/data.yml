@@ -1,0 +1,111 @@
+name: Philippe Dessauw
+occupation: Senior Software Engineer
+
+# Sidebar
+contact:
+  address: Germantown, MD, 20874
+  email: pdessauw@gmail.com
+  phone: 240-421-9253
+  website: pdessauw.com
+  github: pdessauw
+  linkedin: pdessauw
+
+skills:
+  - category: Programming Languages
+    skill:
+      - Python, JavaScript, C#, Shell, Java
+  - category: Databases & Storage
+    skill:
+      - PostgreSQL, MongoDB, Redis, Neo4J
+  - category: Web Development
+    skill:
+      - Django, Flask, React, REST APIs, Nginx
+  - category: DevOps & Cloud
+    skill:
+      - Docker, Kubernetes, Gerrit, Jenkins, Nexus, Slurm, AWS
+  - category: Machine Learning
+    skill:
+      - Regression, Classification and Clustering Algorithms.
+      - Deep Learning, Transformers and Large Language Models.
+  - category: Others
+    skill:
+      - XML, OCR, ZeroMQ, DVC
+  - category: Tools & Environments
+    skill:
+      - PyCharm, Vim, Windows, UNIX
+
+languages:
+  - idiom: English (Professional)
+  - idiom: French (Native)
+  - idiom: Spanish (Elementary)
+
+interests: |
+  Running, Climbing, Game Development
+
+# Profile
+profile: |
+  Experienced senior software engineer with 10+ years of expertise designing, 
+  developing, and deploying complex data management systems. Proficient in 
+  web technologies, data science and machine learning with a strong focus on 
+  improving engineering practices. Skilled in CI/CD pipelines, scalable 
+  architectures design, and team leadership.
+
+# Experience
+experience:
+  - role: Senior Software Engineer
+    time: 2016-Present
+    company: Prometheus Computing LLC
+    location: Gaithersburg, MD, USA
+    details:
+      - |
+        Maintenance and development of the <a href="https://github.com/usnistgov/mdcs">
+        Material Data Curation System</a> (MDCS), a robust and customizable Django-based 
+        data repository:
+        <ul>
+          <li>
+            Enhanced MDCS exploration with RAG-like search on stored data, leveraging the 
+            on-premise large language model (LLM) zoo. Provided technical leadership on LLM 
+            integration.
+          </li>
+          <li>
+            Created an automated performance framework to run JSON-based scenarios and generate 
+            reports in a MongoDB database. This framework helped identify key underperforming 
+            areas of the MDCS.
+          </li>
+          <li>
+            Setup a Continuous Integration and Continuous Deployment (CI/CD) infrastructure to 
+            automate version control (Gerrit), testing (Jenkins), artifact storage (Nexus) and 
+            application deployment (Docker and Kubernetes). This system achieved a 99% uptime 
+            for the past 8 years.
+          </li>
+        </ul>
+      - |
+        Conducted sensitivity analysis for <a href="https://pages.nist.gov/trojai">TrojAI</a>, 
+        using decision trees and Shapley values to measure the impact of AI models’s 
+        parameters on the detectability of trojaned behaviors. Leveraged statistical 
+        modeling and visualization techniques to provide data-driven insights.
+      - |
+        Modularized a <a href="https://pages.nist.gov/ai-bugfinder-testbed">deep learning 
+        prototype</a> to detect bugs in C code, implementing the strategy design pattern, 
+        to facilitate the integration and configuration of preprocessing algorithms, 
+        feature extractors and machine learning models.
+  - role: Research Engineer
+    time: 2012-2016
+    company: National Institute of Standards and Technology
+    location: Gaithersburg, MD, USA
+    details:
+      - |
+        Led a team of developers in maintaining and improving multiple versions 
+        of the MDCS, where XML schemas are translated into dynamic HTML forms. 
+        This enabled the creation and storage of shareable XML files in MongoDB.
+      - |
+        Architected a <a href="https://github.com/usnistgov/ocr-pipeline">Python pipeline</a> 
+        to convert PDF into clean text files using Optical Character Recognition (OCR) 
+        and Machine Learning. Designed the system to operate on a scalable and 
+        distributed architecture using Redis for high-throughput processing.
+
+education:
+  - degree: Master of Science in IT Engineering
+    time: September 2011
+    university: Telecom Nancy
+    location: Nancy, Lorraine, France

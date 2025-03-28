@@ -1,0 +1,9 @@
+title: Philippe Dessauw | Resume
+theme_skin: blue
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+    - jekyll-minifier

@@ -1,0 +1,11 @@
+.interests {
+    margin-bottom: 20px;
+    width: 90%;
+
+    .title {
+        @include header-sm;
+    }
+    .text {
+        @include body-text;
+    }
+}
